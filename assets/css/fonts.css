@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Roboto-Light';
+	font-display: swap;
+	src: url('../fonts/Roboto/Roboto-Light.woff');
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	font-display: swap;
+	src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	font-display: swap;
+	src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	font-display: swap;
+	src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
+	font-family: 'Roboto-Black';
+	font-display: swap;
+	src: url('../fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+	font-family: 'Philosopher-Bold';
+	font-display: swap;
+	src: url('../fonts/Philosopher/Philosopher-Bold.ttf');
+}
+@font-face {
+	font-family: 'Philosopher-Regular';
+	font-display: swap;
+	src: url('../fonts/Philosopher/Philosopher.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	font-display: swap;
+	src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'AlegreyaSansSC-Regular';
+	font-display: swap;
+	src: url('../fonts/AlegreyaSansSC/AlegreyaSansSC-Regular.ttf');
+}
+@font-face {
+	font-family: 'AlegreyaSansSC-Bold';
+	font-display: swap;
+	src: url('../fonts/AlegreyaSansSC/AlegreyaSansSC-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'IBMPlexSans-Medium';
+	font-display: swap;
+	src: url('../fonts/IBMPlexSans/IBMPlexSans-Medium.ttf');
+}
+@font-face {
+	font-family: 'IBMPlexSans-Bold';
+	font-display: swap;
+	src: url('../fonts/IBMPlexSans/IBMPlexSans-Bold.ttf');
+}

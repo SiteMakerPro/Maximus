@@ -31,6 +31,11 @@
 10. Контакты (contacts)
 11. Подвал (footer)
 
+## Контейнер
+
+Ширина: 1170px
+Блоки: header-nav, hero, why-we, services, slider-1 (левая часть слайдера), slider-2, apply, reviews, contacts, footer
+
 ## Наименования картинок
 
 - Шапка-навигация
