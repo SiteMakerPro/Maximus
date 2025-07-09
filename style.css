@@ -64,6 +64,74 @@ img {
 	margin: 0 auto;
 }
 
+.header {
+	padding-top: 9px;
+	top: 0;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__right-part {
+	display: flex;
+	gap: 57px;
+	align-items: center;
+}
+.header__item {
+	padding-top: 27px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.header__phone {
+	position: relative;
+	padding-left: 10px;
+	font-family: 'Roboto-Bold';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(18px * 1.5);
+}
+.header__phone::before {
+	position: absolute;
+	top: 4px;
+	left: -10px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	content: url('assets/img/icon_tel.svg');
+}
+.header__small-text {
+	font-family: 'Roboto-Regular';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: calc(13px * 1.5);
+	color: #7d808a;
+}
+.nav__list {
+	display: flex;
+	gap: 43px;
+}
+.nav__link {
+	padding-bottom: 10px;
+	font-family: 'Roboto-Regular';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: calc(13px * 1.5);
+	text-transform: uppercase;
+}
+.nav__link:hover {
+	border-bottom: 1px solid #008139;
+}
+.nav__link--active {
+	border-bottom: 1px solid #008139;
+	cursor: not-allowed;
+}
+
 @media screen and (min-width: 480px) {
 	.desktop-none {
 		display: none;
