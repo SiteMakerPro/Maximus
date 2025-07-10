@@ -138,6 +138,15 @@ img {
 	border-bottom: 1px solid #008139;
 	cursor: not-allowed;
 }
+.nav__button {
+	padding: 6px 10px 8px 10px;
+	font-family: 'Roboto-Regular';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: calc(15px * 1.5);
+	border: 1px solid #008139;
+	border-radius: 3px;
+}
 
 @media screen and (min-width: 768px) {
 	.desktop-none {
