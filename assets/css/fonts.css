@@ -42,14 +42,14 @@
 }
 
 @font-face {
-	font-family: 'AlegreyaSansSC-Regular';
+	font-family: 'AlegreyaSans-Regular';
 	font-display: swap;
-	src: url('../fonts/AlegreyaSansSC/AlegreyaSansSC-Regular.ttf');
+	src: url('../fonts/AlegreyaSansSC/AlegreyaSans-Regular.ttf');
 }
 @font-face {
-	font-family: 'AlegreyaSansSC-Bold';
+	font-family: 'AlegreyaSans-Bold';
 	font-display: swap;
-	src: url('../fonts/AlegreyaSansSC/AlegreyaSansSC-Bold.ttf');
+	src: url('../fonts/AlegreyaSansSC/AlegreyaSans-Bold.ttf');
 }
 
 @font-face {
