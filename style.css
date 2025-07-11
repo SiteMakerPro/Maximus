@@ -157,6 +157,42 @@ img {
 	border-radius: 3px;
 }
 
+.hero {
+	padding-top: 157px;
+	min-height: 948px;
+	background: url('assets/img/hz_hero_bg.jpg') no-repeat center center/cover;
+}
+.hero__content {
+	max-width: 614px;
+}
+.hero h1 {
+	margin-bottom: 40px;
+}
+.hero__text {
+	position: relative;
+	margin-bottom: 42px;
+	padding-left: 46px;
+	font-family: 'AlegreyaSans-Regular';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: calc(24px * 1.1 + 4px);
+	color: #646464;
+}
+.hero__text::before {
+	position: absolute;
+	left: 0;
+	top: 16px;
+	display: block;
+	width: 26px;
+	height: 1px;
+	background-color: #8f8f8f;
+	content: '';
+}
+.hero__strong {
+	font-family: 'AlegreyaSans-Bold';
+	font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
 	.desktop-none {
 		display: none;
