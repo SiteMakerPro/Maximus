@@ -44,12 +44,12 @@
 @font-face {
 	font-family: 'AlegreyaSans-Regular';
 	font-display: swap;
-	src: url('../fonts/AlegreyaSansSC/AlegreyaSans-Regular.ttf');
+	src: url('../fonts/AlegreyaSans/AlegreyaSans-Regular.ttf');
 }
 @font-face {
 	font-family: 'AlegreyaSans-Bold';
 	font-display: swap;
-	src: url('../fonts/AlegreyaSansSC/AlegreyaSans-Bold.ttf');
+	src: url('../fonts/AlegreyaSans/AlegreyaSans-Bold.ttf');
 }
 
 @font-face {
