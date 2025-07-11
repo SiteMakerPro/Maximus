@@ -10,10 +10,6 @@ body {
 	color: #202020;
 }
 
-main {
-	padding-top: 157px;
-}
-
 h1 {
 	font-family: 'Philosopher-Bold';
 	font-weight: 700;
@@ -63,6 +59,19 @@ img {
 }
 .reset-list-style {
 	list-style: none;
+}
+.btn {
+	background: linear-gradient(180deg, #fff383 0%, #ffc700 100%);
+}
+.btn--apply {
+	padding: 21px 75px;
+	font-family: 'Montserrat-SemiBold';
+	font-size: 15px;
+	line-height: 32px;
+	border-radius: 5px;
+	color: #6a5300;
+	box-shadow: 0 4px 0 0 #c89c00;
+	text-transform: uppercase;
 }
 
 .container {
