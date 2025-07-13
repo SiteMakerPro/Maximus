@@ -263,6 +263,7 @@ img {
 	}
 
 	.hero {
+		margin-bottom: 0;
 		padding-top: 111px;
 		min-height: 539px;
 	}
