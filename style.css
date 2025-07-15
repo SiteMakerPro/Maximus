@@ -208,12 +208,14 @@ img {
 	margin-bottom: 89px;
 }
 .about__content {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 541px;
+	grid-template-rows: auto auto;
+	row-gap: 41px;
+	align-items: center;
 }
-.about__text-block {
-	display: flex;
-	flex-direction: column;
-	gap: 41px;
+.about__img {
+	grid-row: span 2;
 }
 .about__statistic {
 	display: grid;
@@ -259,6 +261,9 @@ img {
 		font-size: 47px;
 		line-height: calc(47px * 1.1 + 4px);
 	}
+	h2 {
+		font-size: 30px;
+	}
 
 	.btn--apply {
 		padding: 15px 54px;
@@ -278,12 +283,39 @@ img {
 		font-size: 20px;
 		line-height: calc(20px * 1.1 + 4px);
 	}
+
+	.about h2 {
+		margin-bottom: 21px;
+	}
+	.about__img {
+		grid-row: inherit;
+	}
+	.about__statistic {
+		grid-template-columns: repeat(auto-fit, minmax(176px, 250px));
+		column-gap: 23px;
+	}
+	.about__text-big {
+		font-size: 32px;
+		line-height: calc(32px * 1.1 + 4px);
+	}
+	.about__text-bold {
+		font-size: 15px;
+	}
+	.about__text-small {
+		grid-column: span 2;
+		font-size: 13px;
+		line-height: 20px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
 	h1 {
 		font-size: 37px;
 		line-height: calc(37px * 1.1 + 4px);
+	}
+	h2 {
+		font-size: 27px;
+		line-height: 27px;
 	}
 
 	.logo {
@@ -331,6 +363,17 @@ img {
 	.hero__text::before {
 		width: 15px;
 	}
+
+	.about h2 {
+		margin-bottom: 38px;
+	}
+	.about__statistic {
+		column-gap: 15px;
+	}
+	.about__text-bold {
+		font-size: 13px;
+		line-height: 22px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -375,12 +418,38 @@ img {
 		left: 50%;
 		transform: translateY(-50%);
 	}
+
+	.about__content {
+		grid-template-columns: 1fr;
+	}
+	.about__img {
+		display: none;
+	}
+	.about__statistic {
+		grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+		justify-content: center;
+	}
+	.about__item {
+		text-align: center;
+	}
+	.about__text-big {
+		font-size: 27px;
+		line-height: calc(27px * 1.1 + 4px);
+	}
+	.about__text-bold {
+		font-size: 12px;
+		line-height: 18px;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	h1 {
 		font-size: 24px;
 		line-height: calc(24px * 1.1 + 4px);
+	}
+	h2 {
+		font-size: 21px;
+		line-height: 21px;
 	}
 
 	.btn--apply {
@@ -402,5 +471,10 @@ img {
 		padding-top: 15px;
 		font-size: 13px;
 		line-height: 18px;
+	}
+
+	.about__text-small {
+		font-size: 12px;
+		line-height: 19px;
 	}
 }
