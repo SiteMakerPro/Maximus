@@ -231,6 +231,8 @@ h4 {
 }
 .about__img {
 	grid-row: span 2;
+	max-width: 100%;
+	height: auto;
 }
 .about__statistic {
 	display: grid;
