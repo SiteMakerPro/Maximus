@@ -35,12 +35,6 @@ h4 {
 	line-height: calc(16px * 1.5);
 }
 
-img {
-	max-width: 100%;
-	width: auto;
-	height: max-content;
-}
-
 .pos-a {
 	position: absolute;
 }
@@ -72,6 +66,27 @@ img {
 	color: #6a5300;
 	box-shadow: 0 4px 0 0 #c89c00;
 	text-transform: uppercase;
+}
+.btn-slider {
+	padding: 13px 16px;
+	border-radius: 100%;
+}
+.btn-slider--next img {
+	transform: rotate(180deg);
+}
+
+.dots {
+	display: flex;
+	gap: 15px;
+}
+.dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: #e1e1e1;
+}
+.dot--active {
+	background-color: #ffc700;
 }
 
 .container {
