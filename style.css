@@ -484,6 +484,7 @@ h4 {
 .slider2__img {
 	margin-top: -25px;
 	object-fit: cover;
+	border-radius: 5px;
 }
 .slider2__hr {
 	width: 26px;
